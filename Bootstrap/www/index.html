@@ -6,22 +6,31 @@
         <title>Ejemplo APP con Bootstrap y FontAwesome</title>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-
+        <style type="text/css">
+        	#boton {
+        		padding-top:20px; 
+        		padding-bottom: 20px;
+        	}
+        </style>
     </head>
     <body>
     	<div class="container-fluid" style="padding-top:0px;">
-    		<h3 class="text-center" style="color:#444;">Ejemplo de App con Bootstrap y FontAwesome</h3>
-    		<em>Este es solo un ejemplo de una aplicación que usa las librerías de Bootstrap y FontAwesome cargadas localmente.</em>
+    		<h3 class="text-center" style="color:#444;">Ejemplo de App con Bootstrap, FontAwesome y jQuery</h3>
+    		<em>Este es solo un ejemplo de una aplicación que usa las librerías de Bootstrap, FontAwesome y jQuery cargadas localmente.</em>
 
 			<ul class="list-group">
 				<li class="list-group-item"><i style="color:green;" class="fa fa-check"></i> Bootstrap funcionando</li>
     			<li class="list-group-item"><i style="color:green;" class="fa fa-check"></i> FontAwesome funcionando</li>
     		</ul>
 
+    		<button class="btn btn-large btn-primary btn-block" id="boton" name="boton"><i class="fa fa-hand-pointer-o"></i> Presióname</button>
+
 	    	
 	        
 	        <script type="text/javascript" src="cordova.js"></script>
 	        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	        <script type="text/javascript" src="jquery/jquery-3.1.1.min.js"></script>
+	        <script type="text/javascript" src="js/index.js"></script>
 	        
 	    </div>        
     </body>
